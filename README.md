@@ -38,3 +38,19 @@ To run the code run the main.py script.
 
 ### Visualize the data
 Visualization of the dataset can be found in the visualize_dataset.ipynb
+
+## Train
+
+Training the model requires additional training model, whick can be installed the following way:
+
+```
+wget https://storage.googleapis.com/sg2im-data/small/coco64.pt -O transfer_models/coco64.pt
+```
+
+To train the model run the script **main.py**
+
+## Sample
+
+After training the saved models can be found in the folder called trained_models
+
+To test them and sample images run the script **sample.py**
