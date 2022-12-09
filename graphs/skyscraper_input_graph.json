@@ -1,0 +1,15 @@
+{
+    "objs": ["sky-other", "skyscraper"],
+    "triples": [
+      [
+        "sky-other",
+        "surrounding",
+        "skyscraper"
+      ],
+      [
+        "skyscraper",
+        "inside",
+        "sky-other"
+      ]
+    ]
+  }

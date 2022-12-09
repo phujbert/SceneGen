@@ -1,0 +1,20 @@
+{
+    "objs": ["river", "rock", "tree"],
+    "triples": [
+      [
+        "rock",
+        "inside",
+        "river"
+      ],
+      [
+        "river",
+        "below",
+        "tree"
+      ],
+      [
+        "rock",
+        "below",
+        "tree"
+      ]
+    ]
+  }

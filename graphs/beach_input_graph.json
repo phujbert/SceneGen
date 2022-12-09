@@ -1,0 +1,15 @@
+{
+    "objs": ["sand", "sea"],
+    "triples": [
+      [
+        "sand",
+        "below",
+        "sea"
+      ],
+      [
+        "sea",
+        "above",
+        "sand"
+      ]
+    ]
+  }

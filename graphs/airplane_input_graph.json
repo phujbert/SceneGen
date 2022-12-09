@@ -1,0 +1,21 @@
+{
+    "img_id": 336309,
+    "objs": ["clouds", "airplane", "other"],
+    "triples": [
+      [
+        "clouds",
+        "surrounding",
+        "airplane"
+      ],
+      [
+        "clouds",
+        "surrounding",
+        "other"
+      ],
+      [
+        "other",
+        "inside",
+        "clouds"
+      ]
+    ]
+  }

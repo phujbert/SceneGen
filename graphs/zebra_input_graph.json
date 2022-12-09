@@ -1,0 +1,26 @@
+{
+    "img_id": 1818,
+    "objs": ["zebra", "grass", "other"],
+    "triples": [
+      [
+        "zebra",
+        "right of",
+        "zebra"
+      ],
+      [
+        "grass",
+        "below",
+        "zebra"
+      ],
+      [
+        "zebra",
+        "above",
+        "grass"
+      ],
+      [
+        "other",
+        "right of",
+        "zebra"
+      ]
+    ]
+  }

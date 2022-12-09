@@ -1,0 +1,15 @@
+{
+    "objs": ["table", "orange"],
+    "triples": [
+      [
+        "table",
+        "surrounding",
+        "orange"
+      ],
+      [
+        "orange",
+        "inside",
+        "table"
+      ]
+    ]
+  }

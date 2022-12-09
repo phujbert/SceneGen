@@ -1,0 +1,26 @@
+{
+    "img_id": 27972,
+    "objs": ["person", "sea", "surfboard", "other"],
+    "triples": [
+      [
+        "person",
+        "inside",
+        "sea"
+      ],
+      [
+        "other",
+        "above",
+        "surfboard"
+      ],
+      [
+        "surfboard",
+        "inside",
+        "sea"
+      ],
+      [
+        "person",
+        "above",
+        "other"
+      ]
+    ]
+  }
