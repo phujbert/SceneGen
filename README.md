@@ -31,26 +31,26 @@ unzip $COCO_DIR/train2017.zip -d $COCO_DIR/images
 unzip $COCO_DIR/val2017.zip -d $COCO_DIR/images
 ```
 
-### Run the code to load the dataset:
-The code is developed with Python 3.9 and the packages needed can be found in requirements.txt
-To load the data an API is used as well which can be installed from the [cocostuffapi](https://github.com/nightrome/cocostuffapi) github repo.
-To run the code run the main.py script.
 
 ### Visualize the data
 Visualization of the dataset can be found in the visualize_dataset.ipynb
 
 ## Train
 
-Training the model requires additional training model, whick can be installed the following way:
+Training the model requires additional transfer model, whick can be installed the following way:
 
 ```
 wget https://storage.googleapis.com/sg2im-data/small/coco64.pt -O transfer_models/coco64.pt
 ```
 
-To train the model run the script **main.py**
+The code is developed with Python 3.9 and the packages needed can be found in requirements.txt
+To load the data an API is used as well which can be installed from the [cocostuffapi](https://github.com/nightrome/cocostuffapi) github repo.
 
-## Sample
+To train the model run the script **main.py**
 
 After training the saved models can be found in the folder called trained_models
 
-To test them and sample images run the script **sample.py**
+
+## Sample
+
+To sample the model and generate images open the **SceneGenSample.ipynb** notebook in Google Colab
